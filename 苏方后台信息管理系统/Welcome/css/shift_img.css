@@ -1,0 +1,49 @@
+﻿*{margin: 0;padding:0; }
+ul{list-style: none;}
+body{
+	background-color: pink;
+}
+.banner{
+	width: 1150px;
+	height: 480px;
+	border: 2px solid #ccc;
+	margin:35px auto;
+	position: relative;
+	overflow: hidden;
+	background-color: pink;
+}
+.img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.img li{float: left;}
+
+.btn{display: none;}
+.btn span{
+	display: block;
+	width: 50px;
+	height: 100px;
+	color: #fff;
+	font-size: 40px;
+	line-height: 100px;
+	text-align: center;
+}
+.btn .prev{
+	position: absolute;
+	left: 0;top: 50%;
+	margin-top: -50px;
+	cursor: pointer;
+}
+.btn .next{
+	position: absolute;
+	right: 0;top: 50%;
+	margin-top: -50px;
+	cursor: pointer;
+}
+.type{
+	font-size: 25px;
+}
+.type h1 a{
+	text-decoration: none;
+}

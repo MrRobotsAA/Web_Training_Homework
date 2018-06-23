@@ -1,0 +1,119 @@
+
+#app{
+  background:  url(../img/bg13.jpg) no-repeat fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+.reg_div{
+  margin:auto;
+  width: 500px;
+  height: 500px;
+  border:1px solid #333;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #ffffff;
+}
+.reg_div p{
+  padding: 30px 0px;
+  font-size: 30px;
+}
+
+.reg_ul{
+  width: 100%;
+}
+.reg_ul li{
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.reg_ul li span:nth-of-type(1){
+  float: left;
+  margin: auto;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.reg_ul li span:nth-of-type(2){
+  float: left;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.reg_ul li input{
+  float: left;
+  width: 228px;
+  height: 30px;
+  border:1px solid #333;
+  border-radius: 3px;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+.reg_ul li button{
+  margin: auto;
+  color: #ffffff;
+  background-color: #333;
+  font-size: 16px;
+  padding: 10px 60px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.reg_ul li:nth-of-type(2) span:nth-of-type(1){
+  margin-left: 52px;
+}
+.reg_ul li:nth-of-type(3) span:nth-of-type(1){
+  margin-left: 63px;
+}
+.reg_ul li:nth-of-type(4) span:nth-of-type(1){
+  margin-left: 83px;
+}
+.reg_ul li:nth-of-type(5) span:nth-of-type(1){
+  margin-left: 71px;
+}
+
+ body, div, span, a, u, p, ul, li, button,h1,h2 {
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+  font-size: 100%; 
+  font-family: "微软雅黑"; 
+  text-decoration: none; 
+  color: #000;
+}
+body { min-width: 1200px; }
+a:hover { text-decoration: none; }
+input { outline: none; }
+ul { list-style: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

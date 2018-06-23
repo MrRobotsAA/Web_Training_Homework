@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="utf-8">
+	<title>预加载</title>
+    <link rel="stylesheet" href="css/load.css">
+</head>
+<body id="main">
+	<div id="container">
+		<div class="header">
+			<center><h1>欢迎来到苏芳后台管理系统</h1></center>
+		</div>
+		<div class="fakeloader"></div>
+		<div>
+		<center>
+			<h1 id="special" >
+				<a href="shift_img.html" >系统介绍</a>
+			</h1>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<h1 id="special" >
+				<a href="../login/index.html" >登录</a>
+			</h1>
+		</center>
+		</div>
+	</div>
+	<script src="js/jquery.js"></script>
+    <script src="js/fakeLoader.js"></script>
+    <script>
+    	// ready 在文件加载后激活函数
+	    $(document).ready(function(){
+            $(".fakeloader").fakeLoader({
+                timeToHide:1000,
+                bgColor:"orange",
+                spinner:"spinner"
+            });
+        });
+	</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>权限号管理--添加|编辑</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/inner.css">
+    <script type="text/javascript" src="../Js/jquery.js"></script>
+</head>
+<body>
+<form action="index.html" method="post">
+<table class="table table-bordered table-hover definewidth m10">
+    <tr>
+        <td width="10%" class="tableleft">权限号</td>
+        <td><input type="text" name="grouptitle"/></td>
+    </tr>
+    <tr>
+        <td class="tableleft">权限号名称</td>
+        <td><input type="text" name="moduletitle"/></td>
+    </tr>   
+    <tr>
+        <td class="tableleft">状态</td>
+        <td>
+            <input type="radio" name="status" value="1" checked/> 激活
+            <input type="radio" name="status" value="0"/> 未激活
+        </td>
+    </tr>
+    <tr>
+        <td class="tableleft"></td>
+        <td>
+            <button type="submit" class="btn btn-primary" type="button">保存</button>&nbsp;&nbsp;<button type="button" class="btn btn-success" name="backid" id="backid">返回列表</button>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
+<script>
+    $(function () {       
+		$('#backid').click(function(){
+				window.location.href="index.html";
+		 });
+
+    });
+</script>

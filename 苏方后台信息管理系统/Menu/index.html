@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>苏芳后台管理系统菜单页</title>
+    <link rel="stylesheet" type="text/css" href="../Css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../Css/inner.css">
+</head>
+<body style="">
+<div >
+        <br><br>
+        <center><h2 style="color: orange">欢迎使用苏芳后台管理系统！</h2></center>
+        <center>
+             <ul style="list-style-type:none;padding:0;text-align: center;">
+        <li style="margin-top:60px;">
+        <a href="#" style="text-decoration:none;font-size:22px;color:black;"><img style="width: 22px;height:22px; text-align: center;" src="../Images/xyy-hello.png"> 您好,尊敬的<span style="color:red;">ROOT</span>用户!</a>
+        </li>   
+        <br>
+        <li style="margin-top:10px;">
+            <a href="#" style="text-decoration:none;font-size:22px;color:black;">
+                <img  style="width: 22px;height:22px;" src="../Images/xyy-time.png">
+                  现在是：<span id="timer" style="color:green;font:22px ;height:17px;"><script>setInterval("timeStr=new Date().toLocaleString();timer.innerText=timeStr;",1000)</script></span></a>
+                <!-- 周期性(毫秒计)的执行这段code,首先获取当前日期，转化成字符串，然后去除这个标签内去除html后的文本 -->
+        </li>   
+        </ul>   
+        </center>
+                                                                 
+</div>        
+</body>
+</html>

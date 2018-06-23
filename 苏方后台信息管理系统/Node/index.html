@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>权限号管理</title>
+    <<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/inner.css">
+    <script type="text/javascript" src="../Js/jquery.js"></script>
+</head>
+<body>
+<form class="form-inline definewidth m20" action="index.html" method="get">  
+    权限号名称：
+    <input type="text" name="acaname" id="acaname" class="abc input-default">&nbsp;&nbsp;  
+    <button type="submit" class="btn btn-primary">查询</button>&nbsp;&nbsp; <button type="button" class="btn btn-success" id="addnew">新增权限号</button>
+</form>
+<table class="table table-bordered table-hover definewidth m10" >
+    <thead>
+    <tr>
+        <th>权限号编号</th>
+        <th>权限号名称</th>
+        <th>状态</th>
+        <th>管理操作</th>
+    </tr>
+    </thead>
+	     <tr>
+            <td>1</td>
+            <td>清华大学</td>
+            <td>激活</td>
+            <td>
+                  <a href="add.html">编辑</a>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>北京大学</td>
+            <td>激活</td>
+            <td>
+                  <a href="add.html">编辑</a>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>上海交通大学</td>
+            <td>激活</td>
+            <td>
+                  <a href="add.html">编辑</a>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>山东大学</td>
+            <td>激活</td>
+            <td>
+                  <a href="add.html">编辑</a>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>山东理工大学</td>
+            <td>激活</td>
+            <td>
+                  <a href="add.html">编辑</a>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>山东科技大学</td>
+            <td>激活</td>
+            <td>
+                  <a href="add.html">编辑</a>
+            </td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>山东建筑大学</td>
+            <td>激活</td>
+            <td>
+                  <a href="add.html">编辑</a>
+            </td>        </tr>
+        <tr>
+            <td>8</td>
+            <td>山东农业大学</td>
+            <td>激活</td>
+            <td>
+                  <a href="add.html">编辑</a>
+            </td>
+        </tr>
+</table>
+        <br>
+<div class="inline pull-right page">
+         8 条记录 1/1 页  <a href='#'>下一页</a>     <span class='current'>1</span>  <a href='#' >最后一页</a>    </div>
+<script>
+    $(function () {
+        
+		$('#addnew').click(function(){
+
+				window.location.href="add.html";
+		 });
+    });
+	
+</script>
+</body>
+</html>

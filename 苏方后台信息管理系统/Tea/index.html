@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>教师管理</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/inner.css">
+    <script type="text/javascript" src="../Js/jquery.js"></script>
+</head>
+<body>
+<form class="form-inline definewidth m20" action="index.html" method="get">  
+    教师名称：
+    <input type="text" name="acaname" id="acaname" class="abc input-default">&nbsp;&nbsp;  
+    <button type="submit" class="btn btn-primary">查询</button>&nbsp;&nbsp; <button type="button" class="btn btn-success" id="addnew">新增教师</button>
+</form>
+<table class="table table-bordered table-hover definewidth m10">
+    <thead>
+    <tr>
+        <th>教师id</th>
+        <th>教师姓名</th>
+        <th>职位</th>
+        <th>邮箱</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+	     <tr>
+            <td>1</td>
+            <td>李老师</td>
+            <td>教学主任</td>
+            <td>**********@gmail.com</td>
+            <td>
+                <a href="add.html">编辑</a>                
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>徐老师</td>
+            <td>普通教师</td>
+            <td>**********@gmail.com</td>
+            <td>
+                <a href="add.html">编辑</a>                
+            </td>
+        </tr>   
+        <tr>
+            <td>3</td>
+            <td>王老师</td>
+            <td>普通教师</td>
+            <td>**********@gmail.com</td>
+            <td>
+                <a href="add.html">编辑</a>                
+            </td>
+        </tr>   
+        <tr>
+            <td>4</td>
+            <td>曹老师</td>
+            <td>普通教师</td>
+            <td>**********@gmail.com</td>
+            <td>
+                <a href="add.html">编辑</a>                
+            </td>
+        </tr>  	
+        <tr>
+            <td>5</td>
+            <td>马老师</td>
+            <td>普通教师</td>
+            <td>**********@gmail.com</td>
+            <td>
+                <a href="add.html">编辑</a>                
+            </td>
+        </tr>   
+        <tr>
+            <td>6</td>
+            <td>侯老师</td>
+            <td>普通教师</td>
+            <td>**********@gmail.com</td>
+            <td>
+                <a href="add.html">编辑</a>                
+            </td>
+        </tr>   
+</table>
+<br>
+<div class="inline pull-right page">
+         702 条记录 1/20 页  <a href='#'>下一页</a>     <span class='current'>1</span><a href='#'>2</a><a href=''>3</a><a href='#'>4</a><a href='#'>5</a>  <a href='#' >下5页</a> <a href='#' >最后一页</a>    </div>
+         <script>
+    $(function () {
+        
+        $('#addnew').click(function(){
+
+                window.location.href="add.html";
+         });
+    });
+    
+</script>
+</body>
+</html>
